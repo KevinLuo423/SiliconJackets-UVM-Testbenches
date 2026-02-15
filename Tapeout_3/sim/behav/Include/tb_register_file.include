@@ -1,0 +1,36 @@
+// ========== INTERFACES ===========
+// ADD INTERFACES HERE
+Tests/uvm/tb_register_file/tb/register_file_if.sv
+
+// ========= SOURCE FILES ==========
+../../src/register_file/register_file_pkg.sv
+../../src/register_file/multiplexer.sv
+../../src/register_file/wr_en_mux_arr.sv
+../../src/register_file/registers.sv
+../../src/register_file/register_file.sv
+
+// ========= UVM PACKAGE FILES =========
+Tests/uvm/tb_register_file/tb/register_file_types_pkg.sv
+Tests/uvm/tb_register_file/sequences/register_file_seq_pkg.sv
+Tests/uvm/tb_register_file/agent/register_file_agent_pkg.sv
+Tests/uvm/tb_register_file/env/register_file_env_pkg.sv
+Tests/uvm/tb_register_file/tests/register_file_test_pkg.sv
+
+// ========= UVM TB COMPONENTS ===========
+// ADD UVM COMPONENTS HERE
+Tests/uvm/tb_register_file/sequences/register_file_seq_item.sv
+Tests/uvm/tb_register_file/sequences/register_file_sequence.svh
+Tests/uvm/tb_register_file/sequences/register_file_seq_lib.sv
+Tests/uvm/tb_register_file/agent/register_file_driver.sv
+Tests/uvm/tb_register_file/agent/register_file_monitor.sv
+Tests/uvm/tb_register_file/agent/register_file_sequencer.sv
+Tests/uvm/tb_register_file/agent/register_file_agent.sv
+Tests/uvm/tb_register_file/env/register_file_collector.sv
+Tests/uvm/tb_register_file/env/register_file_sb.sv
+Tests/uvm/tb_register_file/env/register_file_env.sv
+Tests/uvm/tb_register_file/tests/register_file_base_test.svh
+Tests/uvm/tb_register_file/tests/register_file_test_lib.sv
+
+// ========= TB TOP ===========
+// ADD TB TOP AND ANY OTHER NEEDED COMPILE FILES HERE
+Tests/uvm/tb_register_file/tb/register_file_tb_top.sv

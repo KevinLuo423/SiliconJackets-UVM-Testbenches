@@ -1,0 +1,31 @@
+// ========== INTERFACES ===========
+// ADD INTERFACES HERE
+
+// ========= SOURCE FILES ==========
+// ADD RTL FILES HERE
+
+// ========= UVM PACKAGE FILES =========
+// ADD UVM PACKAGE FILES HERE
+Tests/uvm/tb_uvm_template/sequences/uvm_template_seq_pkg.sv
+Tests/uvm/tb_uvm_template/agent/uvm_template_agent_pkg.sv
+Tests/uvm/tb_uvm_template/env/uvm_template_env_pkg.sv
+Tests/uvm/tb_uvm_template/tests/uvm_template_test_pkg.sv
+
+// ========= UVM TB COMPONENTS ===========
+// ADD UVM COMPONENTS HERE
+Tests/uvm/tb_uvm_template/agent/uvm_template_driver.sv
+Tests/uvm/tb_uvm_template/agent/uvm_template_monitor.sv
+Tests/uvm/tb_uvm_template/agent/uvm_template_sequencer.sv
+Tests/uvm/tb_uvm_template/agent/uvm_template_agent.sv
+Tests/uvm/tb_uvm_template/env/uvm_template_sb.sv
+Tests/uvm/tb_uvm_template/env/uvm_template_env.sv
+Tests/uvm/tb_uvm_template/sequences/uvm_template_seq_item.sv
+Tests/uvm/tb_uvm_template/sequences/uvm_template_sequence.svh
+Tests/uvm/tb_uvm_template/sequences/uvm_template_seq_lib.sv
+Tests/uvm/tb_uvm_template/tests/uvm_template_base_test.svh
+Tests/uvm/tb_uvm_template/tests/uvm_template_test_lib.sv
+
+// ========= TB TOP ===========
+// ADD TB TOP AND ANY OTHER NEEDED COMPILE FILES HERE
+Tests/uvm/tb_uvm_template/tb/uvm_template_tb_top.sv
+
